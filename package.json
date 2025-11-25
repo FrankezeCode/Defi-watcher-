@@ -1,0 +1,36 @@
+{
+  "name": "defi-watcher",
+  "version": "1.0.0",
+  "description": "Aave v3 liquidation watcher with Telegram alerts",
+  "main": "dist/watcher.js",
+  "scripts": {
+    "dev": "tsx src/watcher.ts",
+    "build": "tsc",
+    "start": "node dist/watcher.js"
+  },
+  "keywords": [
+    "defi",
+    "aave",
+    "liquidation",
+    "watcher",
+    "ethers",
+    "telegram"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^3.6.5",
+    "dns": "^0.2.2",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "@types/node-telegram-bot-api": "^0.64.12",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.3"
+  }
+}
